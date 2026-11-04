@@ -19,3 +19,10 @@ Application Flutter Hello ISPA (séance 1).
 1. Après un hot reload, le State reste en mémoire, donc le compteur garde sa valeur. Un hot restart relance l'application et recrée le State : le compteur repart à 0.
 2. HelloIspaApp ne change jamais (thème et page de départ), donc Stateless. AccueilPage contient une donnée qui change (_presents), donc Stateful.
 3. Sans setState(), la variable augmente mais Flutter n'est pas prévenu de redessiner l'écran : l'affichage ne change pas.
+
+## Séance 2 : pharmacies de garde
+Le fichier lib/main.dart contient maintenant l'exemple des pharmacies de garde (liste et filtre « De garde »).
+
+
+
+![Pharmacies](docs/capture2.png)
